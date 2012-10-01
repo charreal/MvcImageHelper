@@ -1,0 +1,12 @@
+﻿@model MVC3_Displaying_Image.Models.ImageTable
+@using MVC3_Displaying_Image.HtmlHelperRepository
+<table>
+ <tr>
+  <td>
+    @Html.DisplayFor(m=>Model.ImadeId)
+  </td>
+  <td>
+    @Html.ImageData(Model.ImadeId) 
+  </td>
+ </tr>
+</table>
